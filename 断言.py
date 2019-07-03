@@ -1,11 +1,11 @@
-# a = 1
-# assert a,"a is flase"
-# print(a)
-# 上述断言类似下面的raise
-# a = 0
-# if not a:
-#     raise AssertionError("a is flase")
-# print(a)
+a = 1
+assert a,"a is flase"
+print(a)
+#上述断言类似下面的raise
+a = 0
+if not a:
+    raise AssertionError("a is flase")
+print(a)
 
 import unittest
 # #unittest使用的方法
@@ -43,7 +43,7 @@ class OurTest(unittest.TestCase):
         self.a = 1
         self.b = 1
         self.result = 3
-    def test_add(self):
+    # def test_add(self):
         """
         具体测试的方法，使用testcase编写具体测试的方法，函数名称必须以test开头
         函数当中的内容通常是获取预期值，和运行结果值
@@ -56,5 +56,5 @@ class OurTest(unittest.TestCase):
         类似类的del方法，用来回收测试的环境
         """
 
-if __name__ == "__main__":
-    unittest.main()
+# if __name__ == "__main__":
+    # unittest.main()

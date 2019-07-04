@@ -1,13 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e39f51de-9452-45d7-abca-3db2f3bb49b2" name="Default Changelist" comment="Merge branch master">
-      <change afterPath="$PROJECT_DIR$/HTMLTestRunner生成测试报告.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aa.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/0703.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/0703.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="e39f51de-9452-45d7-abca-3db2f3bb49b2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/get_fiction.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/断言.py" beforeDir="false" afterPath="$PROJECT_DIR$/断言.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,12 +14,26 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/0703$selenium.coverage" NAME="selenium使用 Coverage Results" MODIFIED="1562135204347" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/0703$get_fiction.coverage" NAME="get_fiction Coverage Results" MODIFIED="1562226735487" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/0703$Unittests_in_unittest_selenium_py.coverage" NAME="Unittests in unittest_selenium结合使用结构优化.py Coverage Results" MODIFIED="1562158964023" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/0703$.coverage" NAME="断言 Coverage Results" MODIFIED="1562156880086" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/0703$Unittests_in_HTMLTestRunner_py.coverage" NAME="Unittests in HTMLTestRunner生成测试报告.py Coverage Results" MODIFIED="1562153664245" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/get_fiction.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="87">
+              <caret line="3" column="10" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
+              <folding>
+                <element signature="e#0#22#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -40,11 +51,13 @@
         <option value="$PROJECT_DIR$/selenium使用.py" />
         <option value="$PROJECT_DIR$/unittest_selenium结合使用结构优化.py" />
         <option value="$PROJECT_DIR$/unittest_selenium结合使用.py" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/HTMLTestRunner生成测试报告.py" />
         <option value="$PROJECT_DIR$/aa.py" />
         <option value="D:/python37/Lib/site-packages/HTMLTestRunner.py" />
         <option value="$PROJECT_DIR$/断言.py" />
+        <option value="D:/gitproject1/cgiproject/cgi-bin/index.py" />
+        <option value="$PROJECT_DIR$/get_fiction.py" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -60,6 +73,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -71,7 +85,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -97,7 +110,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests in unittest_selenium结合使用结构优化.py">
+  <component name="RunManager" selected="Python.get_fiction">
     <configuration name="断言" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="0703" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -120,19 +133,26 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for unittest_selenium结合使用结构优化.Tongcheng58" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="get_fiction" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="0703" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;unittest_selenium结合使用结构优化.Tongcheng58&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/get_fiction.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
     <configuration name="Unittests in HTMLTestRunner生成测试报告.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
@@ -182,11 +202,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.get_fiction" />
         <item itemvalue="Python tests.Unittests in unittest_selenium结合使用结构优化.py" />
         <item itemvalue="Python.断言" />
         <item itemvalue="Python tests.Unittests in 断言.py" />
         <item itemvalue="Python tests.Unittests in HTMLTestRunner生成测试报告.py" />
-        <item itemvalue="Python tests.Unittests for unittest_selenium结合使用结构优化.Tongcheng58" />
       </list>
     </recent_temporary>
   </component>
@@ -200,7 +220,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1562121307448</updated>
-      <workItem from="1562121308730" duration="23883000" />
+      <workItem from="1562121308730" duration="27915000" />
+      <workItem from="1562223482499" duration="4025000" />
     </task>
     <task id="LOCAL-00001" summary="0703unittest_selenium结合">
       <created>1562139714134</created>
@@ -216,7 +237,14 @@
       <option name="project" value="LOCAL" />
       <updated>1562140439953</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="测试报告">
+      <created>1562160572466</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1562160572466</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -252,17 +280,18 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23883000" />
+    <option name="totallyTimeSpent" value="31940000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25718608" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26096824" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.45008183" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3617021" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -273,12 +302,12 @@
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Terminal" order="11" weight="0.22913256" />
       <window_info anchor="bottom" id="Python Console" order="12" />
-      <window_info anchor="right" id="Coverage" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="SciView" order="3" />
       <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Coverage" order="5" side_tool="true" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -289,26 +318,11 @@
     <MESSAGE value="0703unittest_selenium结合1" />
     <MESSAGE value="Merge branch 'master'" />
     <MESSAGE value="Merge branch master" />
-    <option name="LAST_COMMIT_MESSAGE" value="Merge branch master" />
+    <MESSAGE value="测试报告" />
+    <option name="LAST_COMMIT_MESSAGE" value="测试报告" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="29">
-            <caret line="1" column="5" lean-forward="true" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="5" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/1.py" />
     <entry file="file://$PROJECT_DIR$/aaa.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -380,6 +394,38 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="58">
           <caret line="38" column="9" lean-forward="true" selection-start-line="38" selection-start-column="9" selection-end-line="38" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/gitproject1/cgiproject/cgi-bin/index.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="406">
+          <caret line="14" column="24" lean-forward="true" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xiaoshuo.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4002" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="58">
+            <caret line="2" column="10" lean-forward="true" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/get_fiction.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="87">
+          <caret line="3" column="10" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
+          <folding>
+            <element signature="e#0#22#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
